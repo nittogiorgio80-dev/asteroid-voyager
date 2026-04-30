@@ -31,10 +31,15 @@ canvas {
     text-align: center;
 }
 
-#score {
+#score, #high-score {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-shadow: 0 0 10px cyan;
+}
+
+#high-score {
+    color: #ffd700;
+    text-shadow: 0 0 10px orange;
 }
 
 #message {
